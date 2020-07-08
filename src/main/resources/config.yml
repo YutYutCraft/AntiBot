@@ -1,0 +1,33 @@
+#             ____
+#      /\    |  _ \
+#     /  \   | |_) |
+#    / /\ \  |  _ <    Plugin configuration file, made by dxcf
+#   / ____ \ | |_) |
+#  /_/    \_\|____/
+
+#Note that most botting program (Like OQMinebot for example), already bypassed this check
+#It is recommended to have a second antibot plugin on your server
+#If you get any errors in console, please make sure that your server is running on version 1.16.1
+
+#Title of the verification gui
+gui-title: "&cAntiBot Verification"
+
+#Title of clickme glass
+clickme-title: "&aClick me"
+#Title of don't clickme glass
+dont-clickme-title: "&cDon't click me"
+
+#Captcha will be marked as 'Failed' after the specified time
+#Default: 20 seconds
+timeout: 20
+
+pass-msg: "&8[&cA&4B&8] &aYou passed the captcha!"
+
+#Executed when player fails the captcha
+cmd-fail-prefix: "kick "
+cmd-fail-suffix: " &8[&cA&4B&8] &3You failed the captcha!"
+
+#TODO: Add database option
+#There are currently only 1 database option right now.
+#This option is needless, un-comment it if you wish.
+#database: "HashMap"

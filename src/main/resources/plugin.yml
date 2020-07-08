@@ -1,0 +1,11 @@
+name: AntiBot
+version: ${project.version}
+main: net.mortalheroes.antibot.AntiBot
+api-version: 1.16
+authors: [dxcf]
+description: A simple AntiBot plugin
+
+commands:
+  antibot:
+    description: Plugin main command
+    usage: <command>
